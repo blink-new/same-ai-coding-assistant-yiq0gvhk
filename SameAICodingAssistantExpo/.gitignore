@@ -1,0 +1,50 @@
+# Expo
+.expo/
+
+# Metro bundler
+.metro-cache/
+
+# Android
+**/android/build/
+**/android/app/build/
+**/android/app/.cxx/
+**/android/app/src/main/assets/app.manifest
+**/android/app/src/main/assets/metadata.json
+
+# iOS
+**/ios/build/
+**/ios/Pods/
+
+# Node modules
+node_modules/
+
+# IDE files
+.idea/
+*.iml
+*.project
+*.vscode/
+
+# Misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# EAS Build outputs (optional, if you build locally and don't want to commit them)
+# eas-build-local-android-output/
+# eas-build-local-ios-output/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Bundletool (Android App Bundle)
+*.aab
+
+# APK files
+*.apk
+
+# Keystores
+*.keystore
+*.jks
